@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    padding: 0;
+    margin: 0;
+}
+.hero{
+   background-image: linear-gradient(to bottom, rgba(52, 202, 169, 0.26),rgba(255, 255, 255, 0.747)),
+    url(/src/images/docOffice.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: fit-content;
+    width: 100%;
+    padding: 40px 0 0 0;
+}
+.header{
+    width: 85%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    z-index: 10;
+    margin-top: 40px;
+}
+.header img{
+    width: 150px;
+    margin: 0 15px;
+}
+/* .header ul{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.header ul li{
+    color: #294745;
+   font-size: 14px;
+   font-family: sans-serif;
+   letter-spacing: 1px;
+}
+.header ul li Link:hover{
+    text-decoration: none;
+    color: #13bfb1;
+}
+.header ul li:hover{
+    color: #13bfb1;
+
+} */
+.menu.active{
+    right: 0;
+}
+
+.header ul span{
+    background-color: rgba(209, 209, 209, 0.39);
+    width: 1px;
+    height: 50px;
+}
+
+.hero-img img{
+    width: 450px;
+    margin-top: -14%;
+}

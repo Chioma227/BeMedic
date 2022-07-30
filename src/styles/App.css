@@ -1,0 +1,275 @@
+body{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.nav ul li{
+    display:  inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: 0.4s ease;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+#check{
+    display: none;
+}
+#menu i{
+    display: none;
+}
+.header{
+    width: 90%;
+    font-weight: bold;
+}
+.header2{
+    font-weight: bold;
+}
+.ill-1, .ill-2{
+    width: 550px;
+}
+.art1{
+    margin-top: 100px;
+}
+
+.input1{
+    width: 320px;
+    outline: none;
+    padding: 12px 12px 12px 9px;
+}
+.text{
+    font-size: 20px;
+    width: 80%;
+}
+.start{
+    padding: 15px 35px;
+}
+.card{
+    width: 350px;
+    padding: 25px;
+    border: none;
+    margin-top: 50px;
+    box-shadow:  0px 3px 40px 1px rgba(0, 0, 0, 0.2);
+}
+.sec2-body{
+    margin-top: 200px;
+    background-image: url(   https://raw.githubusercontent.com/nikkilr88/frontend-mentor-challenges/f797c69f4a1dfde9a805da4ddd88715f1031490d/fylo-landing-page-496436-master/images/bg-curve-desktop.svg  );
+    background-repeat: no-repeat;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+}
+.sec2-body a{
+    color: #3da08f;
+    padding: 4px;
+    text-decoration: none;
+    border-bottom: 1px solid #3da08f;
+}
+.card .para1{
+line-height: 30px;
+font-size: 16px;
+}
+.avatar img{
+    width: 50px;
+    border-radius: 40px;
+}
+.info h4{
+    margin: 0;
+    font-weight:bold;
+    font-size: 15px;
+}
+.info p{
+    font-size: 15px;
+}
+.info1{
+    width: 80%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.info2{
+    width: 80%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.fylo a{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.background{
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+.sign-up{
+    width: 80%;
+}
+.light-blue{
+    background-color: #585989;
+    width: 100%;
+}
+.dark-blue{
+    display: flex;
+    justify-content: space-between;
+    background-color: #070439;
+    color: white;
+}
+.heading{
+    margin-bottom: 20px;
+}
+.art1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.art2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.early{
+    margin-top: 100px;
+}
+.dark-blue li{
+    list-style: none;
+    line-height: 40px;
+}
+.access{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.input2{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding-top: 25px;
+}
+.dark-blue a{
+
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.9px;
+}
+.logo-area{
+    line-height: 40px;
+}
+@media (max-width:1024px) {
+    .art1{
+        display: block;
+    }
+    .files1{
+        margin-top: 90px;
+    }
+    .file2{
+        margin-top: 90px;
+    }
+    .art2{
+        display: block;
+    }
+    .access{
+        display: block;
+    }
+    .start{
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+    
+ 
+}
+@media (max-width:614px) {
+    .ill-1, .ill-2{
+        width: 310px;
+    }
+    .header{
+        width: 90%;
+        /* font-size: 30px; */
+        font-weight: bold;
+    }
+    .header2{
+        font-weight: bold;
+    }
+    .dark-blue{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+     }
+     .card{
+        width: 220px;
+        padding: 25px;
+        border: none;
+        margin-top: 50px;
+        box-shadow:  0px 3px 40px 1px rgba(0, 0, 0, 0.2);
+    }
+}
+@media (max-width:548px) {
+    .input1{
+        width: 150px;
+        margin-bottom: 10px;
+        outline: none;
+        padding: 10px 10px 10px 9px;
+    }
+    .input{
+        display: block;
+    }
+    .logo{
+        width: 130px;
+    }
+  
+}
+@media (max-width:490px) {
+    .input2{
+        display: block;
+    }
+    .header{
+        width: 90%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+@media (max-width:380px) {
+    .ill-1, .ill-2{
+        width: 250px;
+    }
+}
+@media (max-width:636px) {
+    .dark-blue{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+     }
+     .input1{
+        width: 250px;
+        outline: none;
+        padding: 12px 12px 12px 9px;
+    }
+    .sec2-body{
+        margin-top: 10px;
+        background-image: url(   https://raw.githubusercontent.com/nikkilr88/frontend-mentor-challenges/f797c69f4a1dfde9a805da4ddd88715f1031490d/fylo-landing-page-496436-master/images/bg-curve-desktop.svg  );
+        background-repeat: no-repeat;
+        height: fit-content;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media (max-width:980px) {
+    .nav ul{
+        position: fixed;
+    }
+   
+}
+
+/* #check:checked ~ ul{
+    left: 0;
+} */
